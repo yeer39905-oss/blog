@@ -1,7 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yeer39905-oss.github.io/blog/'
 
 languageCode = 'zh-cn'
 
 title = "Cinthia's blogs"
 
 theme = "PaperMod"
+
+[params]
+  author = "Cinthia"
+  description = "记录计算机学习过程"
+
+  defaultTheme = "auto"
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+
+ [params.profileMode]
+  enabled = true
+  title = "Cinthia"
+  subtitle = "Information Security Student | AI | Algorithms"
+  imageUrl = "/avatar.jpg"
+  imageTitle = "avatar"
