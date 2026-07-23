@@ -1,0 +1,26 @@
+name: Deploy Hugo Blog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+
+      - run: hugo --minify
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
