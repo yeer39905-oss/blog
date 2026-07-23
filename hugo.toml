@@ -20,5 +20,5 @@ theme = "PaperMod"
   enabled = true
   title = "Cinthia"
   subtitle = "Information Security Student | AI | Algorithms"
-  imageUrl = "/avatar.jpg"
+  imageUrl = "/blog/avatar.jpg"
   imageTitle = "avatar"
