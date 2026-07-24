@@ -36,7 +36,7 @@ MINIST灰度手写图片，单通道，大小为$28 \times28$ ,展开成列向�
 根据梯度，更新参数">
 <meta name="author" content="Cinthia">
 <link rel="canonical" href="http://localhost:1313/blog/posts/mlp-cnn-rnn/">
-<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="http://localhost:1313/blog/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
@@ -155,7 +155,7 @@ MINIST灰度手写图片，单通道，大小为$28 \times28$ ,展开成列向�
 8.根据梯度更新参数</p>
 <h3 id="minist灰度手写图片分类任务">MINIST灰度手写图片分类任务<a hidden class="anchor" aria-hidden="true" href="#minist灰度手写图片分类任务">#</a></h3>
 <p>MINIST灰度手写图片，单通道，大小为$28 \times28$ ,展开成列向量就是$784 \times 1$ ,参数量比较小，适合使用MLP模型来完成
-<img alt="MINIST灰度手写图片" loading="lazy" src="/deeplearning/mlpMINIST.png">
+<img alt="MINIST灰度手写图片" loading="lazy" src="http://localhost:1313/blog/deeplearning/mlpMINIST.png">
 把上面每一个epoch做的任务详细写：
 1.使用mini-bacth的方法，每次取64张MINIST图片作训练，每张图片展开成$784 \times 1$的列向量
 2.通过全连接层做特征提取，其中由矩阵乘法可知，权重矩阵W 为$n^{[l]} \times n^{[l-1]}$，偏置矩阵b是$784\times 1$，其中$n^{[l]}$表示第l层的神经元的个数，我提供的代码，一共三个全连接层，第一层128个神经元，第二层64个神经元，第三层10个神经元
@@ -433,11 +433,11 @@ $\epsilon=10^{-8}$</p>
 三个东西：卷积核、stride移动步幅，padding
 卷积核：一个滑动窗口，用于提取局部特征，每次将窗口范围的图像数据与对应位置的卷积核参数相乘再求和，得到一个响应值
 （图片来源于B站up主谦行Aling）
-<img alt="CNN卷积核结构" loading="lazy" src="/deeplearning/CNNjj.png">
+<img alt="CNN卷积核结构" loading="lazy" src="http://localhost:1313/blog/deeplearning/CNNjj.png">
 卷积核画完整张图像后，把响应值按空间位置关系排列，就得到这个卷积核对应的特征图
 卷积核尺寸：每次看多大的局部区域,常见${3}\times 3$和$5\times 5$，我的例子中用的是${3}\times 3$
 对于多通道的图像
-<img alt="CNN卷积核结构" loading="lazy" src="/deeplearning/CNNdtd.png">
+<img alt="CNN卷积核结构" loading="lazy" src="http://localhost:1313/blog/deeplearning/CNNdtd.png">
 卷积核数=特征图数<br>
 一个卷积核在每个通道上分别做乘加，再把结构加在一起，得到一个响应值
 输出通道数=卷积核数
@@ -722,7 +722,7 @@ Softmax：转成概率</p>
 <p>然后到RNN
 RNN将状态在自身网络循环传播，可以用于处理语音，文字，股票价格这类序列模型
 模型引入一个隐藏状态$a^{<!-- raw HTML omitted -->}$，用于把前面的信息按照序列保存下来，其中,t表示第t个时间步
-<img alt="RNN前向传播" loading="lazy" src="/deeplearning/rnn.png"></p>
+<img alt="RNN前向传播" loading="lazy" src="http://localhost:1313/blog/deeplearning/rnn.png"></p>
 <p>$a^{\langle t\rangle} = g(W_{aa}a^{\langle t-1\rangle} + W_{ax}x^{\langle t\rangle} + b_a)$
 $\hat y^{\langle t\rangle} = g(W_{ya}a^{\langle t\rangle}+b_y)$
 $a^{\langle t\rangle} = g( \text{当前输入贡献} + \text{历史记忆贡献} )$

@@ -1,6 +1,7 @@
 ---
 title: 深度学习基础：MLP、CNN 与 RNN框架
 date: 2026-07-24
+math: true
 slug: "mlp-cnn-rnn"
 categories:
   - Deep Learning

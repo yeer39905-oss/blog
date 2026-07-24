@@ -6,6 +6,8 @@ title = "Cinthia's blogs"
 
 theme = "PaperMod"
 
+canonifyURLs = true
+
 [params]
   author = "Cinthia"
   description = "记录计算机学习过程"
@@ -16,7 +18,8 @@ theme = "PaperMod"
   ShowShareButtons = true
   ShowCodeCopyButtons = true
 
-    math = true
+  math = true
+  
 
 [params.profileMode]
 enabled = true
