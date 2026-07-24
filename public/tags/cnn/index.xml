@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CNN on Cinthia&#39;s blogs</title>
-    <link>http://localhost:1313/blog/tags/cnn/</link>
+    <link>http://localhost:11948/blog/tags/cnn/</link>
     <description>Recent content in CNN on Cinthia&#39;s blogs</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:11948/blog/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度学习基础：MLP、CNN 与 RNN框架</title>
-      <link>http://localhost:1313/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</link>
+      <link>http://localhost:11948/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</guid>
+      <guid>http://localhost:11948/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</guid>
       <description>&lt;p&gt;引言：学习过MLP（多层感知机），CNN（卷积神经网络），RNN（循环神经网络）三个框架后，可以发现，三个模型本质上都是在做：输入数据X -&amp;gt; 特征提取 -&amp;gt; 分类器 -&amp;gt;  输出
 不同的地方在于特征的提取的办法不同
 接下来，我会用MPL模型做MINIST灰度手写图片分类，用CNN模型做CIFAR10图片分类，用RNN做情感分类为例，来说明三个模型的各自的用处和不同点&lt;/p&gt;

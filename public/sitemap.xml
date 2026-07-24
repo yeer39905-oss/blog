@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>http://localhost:11948/blog/categories/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:11948/blog/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/cnn/</loc>
+    <loc>http://localhost:11948/blog/tags/cnn/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/deep-learning/</loc>
+    <loc>http://localhost:11948/blog/categories/deep-learning/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/mlp/</loc>
+    <loc>http://localhost:11948/blog/tags/mlp/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/neural-network/</loc>
+    <loc>http://localhost:11948/blog/tags/neural-network/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
+    <loc>http://localhost:11948/blog/posts/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/rnn/</loc>
+    <loc>http://localhost:11948/blog/tags/rnn/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>http://localhost:11948/blog/tags/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</loc>
+    <loc>http://localhost:11948/blog/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80mlpcnnrnn%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url>
 </urlset>

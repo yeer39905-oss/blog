@@ -16,6 +16,8 @@ theme = "PaperMod"
   ShowShareButtons = true
   ShowCodeCopyButtons = true
 
+    math = true
+
 [params.profileMode]
 enabled = true
 title = "Cinthia"
