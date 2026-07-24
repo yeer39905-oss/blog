@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Deep Learning on Cinthia&#39;s blogs</title>
-    <link>http://localhost:1313/blog/categories/deep-learning/</link>
+    <link>http://localhost:2073/blog/categories/deep-learning/</link>
     <description>Recent content in Deep Learning on Cinthia&#39;s blogs</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:2073/blog/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度学习基础：MLP、CNN 与 RNN框架</title>
-      <link>http://localhost:1313/blog/posts/mlp-cnn-rnn/</link>
+      <link>http://localhost:2073/blog/posts/mlp-cnn-rnn/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/mlp-cnn-rnn/</guid>
+      <guid>http://localhost:2073/blog/posts/mlp-cnn-rnn/</guid>
       <description>&lt;p&gt;引言：学习过MLP（多层感知机），CNN（卷积神经网络），RNN（循环神经网络）三个框架后，可以发现，三个模型本质上都是在做：输入数据X -&amp;gt; 特征提取 -&amp;gt; 分类器 -&amp;gt;  输出
 不同的地方在于特征的提取的办法不同
 接下来，我会用MPL模型做MINIST灰度手写图片分类，用CNN模型做CIFAR10图片分类，用RNN做情感分类为例，来说明三个模型的各自的用处和不同点&lt;/p&gt;
@@ -30,7 +30,7 @@
 8.根据梯度更新参数&lt;/p&gt;
 &lt;h3 id=&#34;minist灰度手写图片分类任务&#34;&gt;MINIST灰度手写图片分类任务&lt;/h3&gt;
 &lt;p&gt;MINIST灰度手写图片，单通道，大小为$28 \times28$ ,展开成列向量就是$784 \times 1$ ,参数量比较小，适合使用MLP模型来完成
-&lt;img alt=&#34;MINIST灰度手写图片&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/deeplearning/mlpMINIST.png&#34;&gt;
+&lt;img alt=&#34;MINIST灰度手写图片&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:2073/blog/deeplearning/mlpMINIST.png&#34;&gt;
 把上面每一个epoch做的任务详细写：
 1.使用mini-bacth的方法，每次取64张MINIST图片作训练，每张图片展开成$784 \times 1$的列向量
 2.通过全连接层做特征提取，其中由矩阵乘法可知，权重矩阵W 为$n^{[l]} \times n^{[l-1]}$，偏置矩阵b是$784\times 1$，其中$n^{[l]}$表示第l层的神经元的个数，我提供的代码，一共三个全连接层，第一层128个神经元，第二层64个神经元，第三层10个神经元
