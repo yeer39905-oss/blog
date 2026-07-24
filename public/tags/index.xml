@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Cinthia&#39;s blogs</title>
-    <link>http://localhost:2054/blog/tags/</link>
+    <link>http://localhost:3426/blog/tags/</link>
     <description>Recent content in Tags on Cinthia&#39;s blogs</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:2054/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3426/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNN</title>
-      <link>http://localhost:2054/blog/tags/cnn/</link>
+      <link>http://localhost:3426/blog/tags/cnn/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:2054/blog/tags/cnn/</guid>
+      <guid>http://localhost:3426/blog/tags/cnn/</guid>
       <description></description>
     </item>
     <item>
       <title>MLP</title>
-      <link>http://localhost:2054/blog/tags/mlp/</link>
+      <link>http://localhost:3426/blog/tags/mlp/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:2054/blog/tags/mlp/</guid>
+      <guid>http://localhost:3426/blog/tags/mlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Neural Network</title>
-      <link>http://localhost:2054/blog/tags/neural-network/</link>
+      <link>http://localhost:3426/blog/tags/neural-network/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:2054/blog/tags/neural-network/</guid>
+      <guid>http://localhost:3426/blog/tags/neural-network/</guid>
       <description></description>
     </item>
     <item>
       <title>RNN</title>
-      <link>http://localhost:2054/blog/tags/rnn/</link>
+      <link>http://localhost:3426/blog/tags/rnn/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:2054/blog/tags/rnn/</guid>
+      <guid>http://localhost:3426/blog/tags/rnn/</guid>
       <description></description>
     </item>
   </channel>
