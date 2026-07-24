@@ -16,9 +16,17 @@ theme = "PaperMod"
   ShowShareButtons = true
   ShowCodeCopyButtons = true
 
- [params.profileMode]
-  enabled = true
-  title = "Cinthia"
-  subtitle = "Information Security Student | AI | Algorithms"
-  imageUrl = "avatar.jpg"
-  imageTitle = "avatar"
+[params.profileMode]
+enabled = true
+title = "Cinthia"
+subtitle = "Information Security Student | AI | Algorithms"
+imageUrl = "avatar.jpg"
+imageTitle = "avatar"
+
+[[params.profileMode.buttons]]
+name = "文章"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "关于我"
+url = "/about"
