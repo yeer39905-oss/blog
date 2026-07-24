@@ -1,6 +1,7 @@
 ---
 title: 深度学习基础：MLP、CNN 与 RNN框架
 date: 2026-07-24
+slug: "mlp-cnn-rnn"
 categories:
   - Deep Learning
 tags:
@@ -30,7 +31,7 @@ Input X -> Linear1 ->Activation1 ->Linear2 ->Activation2 -> ...... ->Linear  -> 
 
 ### MINIST灰度手写图片分类任务
 MINIST灰度手写图片，单通道，大小为$28 \times28$ ,展开成列向量就是$784 \times 1$ ,参数量比较小，适合使用MLP模型来完成
-![[Pasted image 20260724115546.png|383]]
+![MINIST灰度手写图片](/deeplearning/mlpMINIST.png)
 把上面每一个epoch做的任务详细写：
 1.使用mini-bacth的方法，每次取64张MINIST图片作训练，每张图片展开成$784 \times 1$的列向量
 2.通过全连接层做特征提取，其中由矩阵乘法可知，权重矩阵W 为$n^{[l]} \times n^{[l-1]}$，偏置矩阵b是$784\times 1$，其中$n^{[l]}$表示第l层的神经元的个数，我提供的代码，一共三个全连接层，第一层128个神经元，第二层64个神经元，第三层10个神经元
@@ -297,8 +298,7 @@ print("真实:")
 print(labels[:10])
 ```
 
-演示输出
-![MLP结构图](/deeplearning/mlpMINIST.png)
+
 ## CNN
 
 ### 架构：
